@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .post {
+    width: 80%;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Initially hide posts */
+    transition: opacity 0.5s ease-in-out;
+  }
+
+/* Device Screen Classification */
+/* Styles for small screens (e.g., smartphones) */
+  @media only screen and (max-width: 600px) {
+      body {
+          background-color: lightblue;
+          /* Additional styles for small screens */
+      }
+  }
+
+  /* Styles for medium screens (e.g., tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      body {
+          background-color: lightgreen;
+          /* Additional styles for medium screens */
+      }
+  }
+
+  /* Styles for large screens (e.g., desktops) */
+  @media only screen and (min-width: 1025px) {
+      body {
+          background-color: lightgray;
+          /* Additional styles for large screens */
+      }
+  }
